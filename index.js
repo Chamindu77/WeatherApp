@@ -6,8 +6,6 @@ formE1.addEventListner("submit",(event)=>{
     event.preventDefault();
     const cityValue=cityInputE1.value;
     getWeatherData(cityValue);
-
-
 });
 
 async function getWeatherData(cityValue){
